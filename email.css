@@ -1,0 +1,80 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	background: #ba0600;
+	margin: auto;
+	color: #FFF;
+	text-align: left;
+	font-size: 50px;
+	height: 80px;
+}
+#headertext {
+  padding: 10px;
+}
+
+#links{
+	background:#000;
+	color: #FFF;
+}
+
+a {
+	color: #FFF;
+	text-transform: none;
+}
+
+.container {
+	width: 100%;
+}
+
+/* Individual things */
+#first {
+  height: 150px;
+  background: #AAA;
+}
+
+#second {
+  background: #AAA;
+  margin-bottom: 10px;
+  float: top;
+}
+
+#third {
+  background: #AAA;
+  margin-bottom: 10px;
+}
+
+#fourth {
+  background: #AAA;
+  margin-bottom: 10px;
+}
+
+#sports {
+  background: #AAA;
+}
+
+#ad {
+  background: #AAA;
+}
+
+#title {
+  font-size:50px;
+}
+
+#editorial {
+  background: #AAA;
+}
+
+#text {
+  padding: 10px;
+}
+
+#different {
+  padding: 10px;
+  float: left;
+  background: #FFF;
+  height: 200px;
+}
+
