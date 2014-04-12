@@ -9,11 +9,10 @@ html {
 	color: #FFF;
 	text-align: left;
 	font-size: 50px;
-	height: 80px;
 }
 
 #headertext {
-  padding: 10px;
+  padding: 30px;
   background: #ba0600;
   color: #FFF;
   font-size: 50px;
@@ -26,7 +25,9 @@ html {
 }
 
 a {
+  font-size: 15px;
 	color: #FFF;
+  padding: 5px;
 	text-transform: none;
 }
 
@@ -61,7 +62,10 @@ a {
 }
 
 #ad {
-  background: #AAA;
+  background: url("images/11.JPG");
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #title {
@@ -76,7 +80,7 @@ a {
   padding: 10px;
 }
 
-#different {
+#picture {
   padding: 10px;
   float: left;
   background: #FFF;
