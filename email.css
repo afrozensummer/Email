@@ -4,7 +4,7 @@ html {
 }
 
 #header {
-	background: #ba0600;
+	background-color: #a70500;
 	margin: auto;
 	color: #FFF;
 	text-align: left;
@@ -13,11 +13,15 @@ html {
 }
 
 #headertext {
+  margin-top: 11px;
+}
+
+#headertext td {
   padding: 10px;
-  background: #ba0600;
   color: #FFF;
   font-size: 50px;
   font-family: 'Big Caslon', serif;
+  text-align: center;
 }
 
 #links{
