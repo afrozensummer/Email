@@ -4,19 +4,32 @@ html {
 }
 
 #header {
-	background: #ba0600;
+	background-color: #a70500;
 	margin: auto;
 	color: #FFF;
 	text-align: left;
 	font-size: 50px;
+  padding-bottom: 10px;
 }
 
 #headertext {
-  padding: 30px;
-  background: #ba0600;
+  margin-top: 11px;
+}
+
+#endline {
+    background-color: #a70500;
+    padding: 20px;
+    text-align: center;
+    color: #FFF;
+    font-size: 10px;
+}
+
+#headertext td {
+  padding: 10px;
   color: #FFF;
   font-size: 50px;
   font-family: 'Big Caslon', serif;
+  text-align: center;
 }
 
 #links{
@@ -36,10 +49,9 @@ a {
 }
 
 /* Individual things */
-#first {
-  height: 150px;
+/*#first {
   background: #AAA;
-}
+}*/
 
 #second {
   background: #AAA;
@@ -58,11 +70,12 @@ a {
 }
 
 #sports {
-  background: #AAA;
+/*  background: #AAA;*/
+margin-bottom: 10px;
 }
 
 #ad {
-  background: url("images/11.JPG");
+  background: url("images/.JPG");
   height: 100px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -73,17 +86,23 @@ a {
 }
 
 #editorial {
-  background: #AAA;
+/*  background: #AAA;*/
+  margin-bottom: 10px;
 }
 
 #text {
-  padding: 10px;
 }
 
+#headline {
+  font-size: 20px;
+  font-family: 'Georgia';
+  text-decoration: bold;
+}
+
+
+
 #picture {
-  padding: 10px;
+  margin-right: 10px;
   float: left;
-  background: #FFF;
-  height: 200px;
 }
 
