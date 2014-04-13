@@ -54,19 +54,22 @@ a {
 }*/
 
 #second {
-  background: #AAA;
+/*  background: #AAA;*/
   margin-bottom: 10px;
-  float: top;
 }
 
 #third {
-  background: #AAA;
+/*  background: #AAA;*/
   margin-bottom: 10px;
 }
 
 #fourth {
-  background: #AAA;
+/*  background: #AAA;*/
   margin-bottom: 10px;
+}
+
+#author {
+  font-size: 12px;
 }
 
 #sports {
