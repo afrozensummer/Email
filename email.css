@@ -3,6 +3,14 @@ html {
 	padding: 0;
 }
 
+body {
+/*  background-color: #F0F0F0;*/
+}
+
+.row{
+  background-color: #FFF;
+}
+
 #header {
 	background-color: #a70500;
 	margin: auto;
@@ -10,6 +18,31 @@ html {
 	text-align: left;
 	font-size: 50px;
   padding-bottom: 10px;
+}
+
+#daily {
+  background-color: #a70500;
+  padding-top: 10px;
+}
+
+#headerleft {
+  padding-left: 10px;
+  color: #FFF;
+  text-align: left;
+  font-size: 50px;
+  float: left;
+  padding-bottom: 10px;
+}
+
+#headerright {
+  padding-top: 5px;
+  margin: auto;
+  color: #FFF;
+  text-align: right;
+  text-transform: italic;
+  font-size: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
 }
 
 #headertext {
@@ -48,6 +81,10 @@ a {
 	width: 100%;
 }
 
+.impt {
+  font-size: 20px;
+}
+
 /* Individual things */
 /*#first {
   background: #AAA;
@@ -78,10 +115,11 @@ margin-bottom: 10px;
 }
 
 #ad {
-  background: url("images/.JPG");
+  background: url("images/PictureOne.JPG") center;
   height: 100px;
   margin-top: 10px;
   margin-bottom: 10px;
+  color: #FFF;
 }
 
 #title {
@@ -89,19 +127,29 @@ margin-bottom: 10px;
 }
 
 #editorial {
-/*  background: #AAA;*/
   margin-bottom: 10px;
 }
 
-#text {
+#miscinfo {
+  margin-left: 10px;
 }
 
 #headline {
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Georgia';
   text-decoration: bold;
 }
 
+#text a:link, #text a:hover, #text a:visited  {
+  color: #a70500;
+}
+
+#harvardtoday{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 40px;
+  color: #a70500;
+}
 
 
 #picture {
