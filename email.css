@@ -34,6 +34,31 @@ a {
   text-align: center;
 }
 
+#daily {
+  background-color: #a70500;
+  padding-top: 10px;
+}
+
+#headerleft {
+  padding-left: 10px;
+  color: #FFF;
+  text-align: left;
+  font-size: 50px;
+  float: left;
+  padding-bottom: 10px;
+}
+
+#headerright {
+  padding-top: 5px;
+  margin: auto;
+  color: #FFF;
+  text-align: right;
+  text-transform: italic;
+  font-size: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
 #headertext {
   margin-top: 11px;
 }
