@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width"/>
 
   <link rel="stylesheet" href="ink.css"> 
-  <link href = "email.css" rel = "stylesheet" type = "text/css">
+  <link href = "daily.css" rel = "stylesheet" type = "text/css">
   <style type="text/css">
       
     /* Ink styles go here in production */
@@ -30,7 +30,26 @@
             <table class="container">
               <tr>
                 <td>
-                  <table class = "row" id = "daily">
+                  <table class="row" id="header">
+                    <tr>
+                      <td class="wrapper last">
+                        <table id="headertext" class="twelve columns">
+                          <tr>
+                            <td>
+                              <a target="_blank" href="http://www.thecrimson.com/">Harvard Today</a>
+                            </td>
+                            <td class="expander"></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+
+
+
+
+                  <!-- <table class = "row" id = "daily">
                     <tr>
                       <td class="wrapper last">
                         <table class="twelve columns">
@@ -55,9 +74,9 @@
                         </table>
                       </td>
                     </tr>
-                    </table>
+                    </table> -->
 
-                  <table class = "row" id = "links">
+                  <!-- <table class = "row" id = "links">
                     <tr> 
                       <td>
                         <a href="www.thecrimson.com/news">News |</a> <a href="www.thecrimson.com/opinion"> Opinion |</a>
@@ -66,18 +85,79 @@
                         <a href=""> Flyby |</a><a href=""> Admissions |</a>
                       </td>
                     </tr>
+                  </table> -->
+
+                  <table id="navwrapper" class="row">
+                    <tr> 
+                      <td class="wrapper last">
+                        <table id="nav" class="twelve columns">
+                          <tr>
+                            <td class="center" align="center">
+                              <center>
+                              <ul>
+                                <li><a target="_blank" href="http://www.thecrimson.com/section/news/">News</a></li>
+                                <li><a target="_blank" href="http://www.thecrimson.com/section/opinion/">Opinion</a></li>
+                                <li><a target="_blank" href="http://www.thecrimson.com/section/fm/">Magazine</a></li>
+                                <li><a target="_blank" href="http://www.thecrimson.com/section/sports/">Sports</a></li>
+                                <li><a target="_blank" href="http://www.thecrimson.com/section/arts/">Arts</a></li>
+                                <li><a target="_blank" href="http://www.thecrimson.com/section/media/">Media</a></li>
+                                <li><a target="_blank" href="http://www.thecrimson.com/section/flyby/">Flyby</a></li>
+                                <li><a target="_blank" href="http://www.thecrimson.com/admissions/">Admissions</a></li>
+                              </ul>
+                              </center>
+                            </td>
+                            <td class="expander"></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
                   </table>
 
-                  <table class = "row" id = "ad">
+                  <table id="socialbar" class="row">
                     <tr>
-                      <td = "wrapper">
-                        <table class = "twelve columns">
-                           <tr>
-                             <td>
-                               AD GOES HERE
+                      <td class="wrapper">
+                        <table class="nine columns">
+                          <tr>
+                            <td id="socialtext" class="left-text-pad">
+                              follow us on facebook and twitter
+                            </td>
+                            <td class="expander"></td>
+                          </tr>
+                        </table>
+                      </td>
+                      <td class="wrapper last">
+                        <table class="three columns">
+                          <tr>
+                            <td class="text-pad">
+                              <table id="social-buttons"><tr>
+                              <td><a target="_blank" href="http://www.facebook.com/TheHarvardCrimson">
+                                <img height="30" src="images/facebook.png">
+                              </a></td>
+                              <td><a target="_blank" href="http://twitter.com/thecrimson">
+                                <img height="30" src="images/twitter.png">
+                              </a></td>
+                              </tr></table>
+                            </td>
+                            <td class="expander"></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
 
-                             </td>
-                           </tr>
+                  <!-- ADVERTISEMENT -->
+                  <table class="row">
+                    <tr>
+                      <td class="wrapper last">
+                        <table class="twelve columns">
+                          <tr>
+                            <td class="text-pad">
+                              <a target="_blank" href="http://www.thecrimson.com">
+                                <img src="images/ad.jpg">
+                              </a>
+                            </td>
+                            <td class="expander"></td>
+                          </tr>
                         </table>
                       </td>
                     </tr>
